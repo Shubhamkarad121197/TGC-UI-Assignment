@@ -1,0 +1,43 @@
+<div class="web-view" fxHide.xs fxHide.sm fxHide.lt-md>
+
+    <div>
+        <div fxLayout="row">
+            <div fxFlex="10">
+                <app-standing-nav-bar></app-standing-nav-bar>
+            </div>
+
+            <div fxFlex="70" fxLayout="column" fxLayoutGap="2%">
+                <div>
+                    <app-background-card></app-background-card>
+                </div>
+                <div>
+                    <app-user-details-table></app-user-details-table>
+                </div>
+            </div>
+            <div fxFlex="18" style="margin-top:2%;">
+                <app-superior-cards></app-superior-cards>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+<div class="mobile-view" fxHide.lg fxHide.md fxHide.lt fxFlex.lt-md fxHide.gt-lg>
+
+    <!-- <div>
+        <app-standing-nav-bar></app-standing-nav-bar>
+    </div> -->
+    <div fxLayout="column" fxLayoutGap="30px">
+        <div>
+            <app-background-card></app-background-card>
+        </div>
+
+        <div>
+            <app-user-details-table></app-user-details-table>
+        </div>
+        <div style="margin:1%;">
+            <app-superior-cards></app-superior-cards>
+        </div>
+    </div>
+</div>

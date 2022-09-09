@@ -1,0 +1,35 @@
+.web-view {
+    width: 100%;
+}
+
+table {
+    color: #ffff;
+    background-color: rgb(104, 93, 93);
+    opacity: 0.8;
+}
+
+tr:hover {
+    color: black;
+    background-color: #ffff;
+    transform: scale(1);
+
+}
+
+.btn {
+    width: 100%;
+}
+
+input {
+    width: 80%;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #ffff;
+    transform: scale(1.1);
+}
+
+/* Mobile-view*/
+.mobile-view {
+    width: 100%;
+}

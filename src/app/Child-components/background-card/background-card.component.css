@@ -1,0 +1,82 @@
+.web-view {
+    width: 100%;
+}
+
+.background-card {
+
+    background-image: url('../../../assets/pngtree-futuristic-digital-technology-blue-background-gaming-interface-wallpaper-image_693021.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    height: 40vh;
+    /*margin-top: 2%; */
+
+    border-radius: 5px;
+    color: #ffff;
+    font: 1em sans-serif;
+    font-weight: 400;
+    padding: 0%;
+    margin: 2%;
+
+}
+
+
+.user-details>h5 {
+    font-size: 1.1em;
+}
+
+.image {
+    width: 11vw;
+    height: 20vh;
+    margin-left: 1%;
+
+    box-shadow: 5px 5px 10px 10px orangered;
+    border-radius: 5px;
+
+}
+
+.image:hover {
+    transform: scale(1.2);
+
+}
+
+.Logoimage {
+    width: 11vw;
+    height: 20vh;
+    box-shadow: 5px 5px 10px 10px orangered;
+
+
+}
+
+.Logoimage:hover {
+    transform: rotate(40deg);
+}
+
+/* Mobile view Started */
+
+.mobile.view {
+    width: 100vw;
+}
+
+.mobile-backgroundCard {
+
+    background-image: url('../../../assets/pngtree-futuristic-digital-technology-blue-background-gaming-interface-wallpaper-image_693021.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30vh;
+    padding: 5%;
+    margin: 2%;
+    border-radius: 5px;
+    color: #ffff;
+
+}
+
+.mobile-image {
+    width: 28vw;
+    height: 25vh;
+    border: 5px solid #ffff;
+    box-shadow: 5px 5px 10px 10px orangered;
+    border-radius: 5px;
+}
